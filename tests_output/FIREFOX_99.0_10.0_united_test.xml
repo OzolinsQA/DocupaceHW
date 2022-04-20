@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="united_test"
+    errors="2" failures="1" hostname="" id="" package="united_test" skipped="0"
+    tests="1" time="16.09" timestamp="">
+  
+    <testcase name="Homework test" classname="united_test" time="16.09" assertions="1">  <failure message="Timed out while waiting for element &lt;#bookFlightOriginInput&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5186ms)">    at Object.Homework test (C:\Users\skoln\Documents\docupace_hw\United_test\united_test.js:29:10)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;#bookFlightOriginInput&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5186ms)[0m" type="error"><![CDATA[
+    Error
+    at Object.Homework test (C:\Users\skoln\Documents\docupace_hw\United_test\united_test.js:29:10)
+    at Context.call (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\context.js:430:35)
+    at TestCase.run (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\index.js:690:80)
+    at Runnable.run (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.createRunnable (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\index.js:797:33)
+    at TestSuite.handleRunnable (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\index.js:802:33)
+    at C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\testsuite\index.js:690:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (C:\Users\skoln\Documents\docupace_hw\node_modules\nightwatch\lib\runner\test-runners\default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .click() command on &lt;#bookFlightForm &gt; div.app-components-BookFlightForm-bookFlightForm__formHeader--2Hpvk &gt; fieldset &gt; div &gt; label:nth-child(2) &gt; span:nth-child(1)&gt;: Timed out while waiting for element &#34;#bookFlightForm &gt; div.app-components-BookFlightForm-bookFlightForm__formHeader--2Hpvk &gt; fieldset &gt; div &gt; label:nth-child(2) &gt; span:nth-child(1)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+ {&#34;value&#34;:null,&#34;status&#34;:0}
+       at Object.Homework test (C:\Users\skoln\Documents\docupace_hw\United_test\united_test.js:27:10)
+ NoSuchElementError: An error occurred while running .setValue() command on &lt;#bookFlightOriginInput&gt;: Timed out while waiting for element &#34;#bookFlightOriginInput&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+ {&#34;value&#34;:null,&#34;status&#34;:0}
+       at Object.Homework test (C:\Users\skoln\Documents\docupace_hw\United_test\united_test.js:28:10)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
